@@ -47,12 +47,12 @@ Managing array pointers and avoiding additional memory allocation.
 Handling edge cases, such as an array with an odd number of elements.
 Efficient use of registers to perform swaps during reversal.
 
-##3. Modular Program with Subroutines for Factorial Calculation
+## 3. Modular Program with Subroutines for Factorial Calculation
 
-###Purpose
+### Purpose
 This program calculates the factorial of a user-input number using a subroutine. The subroutine uses the stack for register preservation and modular design.
 
-###Compiling and execution
+### Compiling and execution
 1. Open a terminal in the directory containing `factorial.asm`.
 2. Compile the program:
     ``` bash
@@ -69,16 +69,16 @@ Managing the stack to preserve and restore register states.
 Debugging stack overflows caused by incorrect PUSH/POP order.
 Ensuring the final factorial result is stored in a general-purpose register.
 
-## Data Monitoring and Control Using Port-Based Simulation
+## 4. Data Monitoring and Control Using Port-Based Simulation
 
-###Purpose
+### Purpose
 This program simulates a control system that monitors a "sensor value" from memory or input port and performs the following actions:
 
 Turns on a motor if the value is low.
 Triggers an alarm if the value is high.
 Stops the motor if the value is moderate.
 
-###Compiling and execution
+### Compiling and execution
 1. Open a terminal in the directory containing `sensor.asm`.
 2. Compile the program:
     ``` bash
